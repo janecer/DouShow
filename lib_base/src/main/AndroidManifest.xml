@@ -1,2 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.miyue.doushow.lib_base" />
+    package="com.miyue.doushow.lib_base" >
+    <application>
+        <activity
+            android:name=".utils.acp.AcpActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Transparent" />
+    </application>
+</manifest>
